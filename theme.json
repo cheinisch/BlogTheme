@@ -1,0 +1,9 @@
+{
+    "name": "Theme Skeleton",
+    "description": "A simple theme skeleton",
+    "author": "Your Name",
+    "license": "MIT",
+    "tooltips": {
+        "+main": "The main content of the page"
+    }
+}
