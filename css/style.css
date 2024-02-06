@@ -1,0 +1,43 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.bg-cover {
+    background-size: cover !important;
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 1024px){
+    .headimg{
+        min-height: 300px;
+    }
+}
+
+.card-tag{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-size{
+    margin: auto;
+}
+
+.card-img-top{
+    height: 300px;
+}

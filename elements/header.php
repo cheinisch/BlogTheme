@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="de" data-bs-theme="auto">
 <head>
+	<!-- Metainformationen -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="John Doe">
+
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<!-- Titel-->
 	<title>@{ sitename } / @{ title }</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/bootstrap-icons.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+
+	<!-- Javascripte -->
 </head>
 <body>
