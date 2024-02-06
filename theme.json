@@ -1,7 +1,7 @@
 {
-    "name": "Theme Skeleton",
-    "description": "A simple theme skeleton",
-    "author": "Your Name",
+    "name": "Blog Theme",
+    "description": "A simple Bootstrap based Blog Theme",
+    "author": "Heimfisch",
     "license": "MIT",
     "tooltips": {
         "+main": "The main content of the page"
