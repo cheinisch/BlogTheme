@@ -12,9 +12,9 @@
 	<title>@{ sitename } / @{ title }</title>
 
 	<!-- Stylesheets -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/bootstrap-icons.min.css" rel="stylesheet" />
-	<link href="css/style.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/packages/@{ theme }/css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/packages/@{ theme }/css/bootstrap-icons.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/packages/@{ theme }/css/style.css" rel="stylesheet" />
 
 	<!-- Javascripte -->
 </head>
