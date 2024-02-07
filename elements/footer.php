@@ -26,6 +26,11 @@
         <!-- Footer Ende -->
         <!-- Javascripte -->
         <script src="/packages/@{ theme }/js/bootstrap.min.js"></script>
+        <@ if @{ checkboxShowTrackingCode } @>
+            <!-- TrackingCode -->
+            @{ TextTrackingCode } 
+            <!-- TrackingCode Ende -->
+        <@ end @>
         <!-- Javascripte Ende-->
     </body>
 </html>
