@@ -9,7 +9,7 @@
 	<meta name="description" content="Free Web tutorials">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<!-- Titel-->
-	<title>@{ sitename } / @{ title }</title>
+	<title>@{ sitename } // @{ title }</title>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/packages/@{ theme }/css/bootstrap.min.css" rel="stylesheet" />
