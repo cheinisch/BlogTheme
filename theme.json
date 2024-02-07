@@ -3,7 +3,7 @@
     "description": "A simple Bootstrap based Blog Theme",
     "author": "Heimfisch",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "tooltips": {
         "+main": "The main content of the page",
         "appleTouchIcon": "The file to be used as Apple touch icon",
