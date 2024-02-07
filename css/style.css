@@ -41,3 +41,11 @@ body {
 .card-img-top{
     height: 300px;
 }
+
+.card-headline{
+    text-decoration: none;
+}
+
+.am-block{
+    max-width: 100% !important;
+}
