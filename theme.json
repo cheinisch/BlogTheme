@@ -4,6 +4,13 @@
     "author": "Heimfisch",
     "license": "MIT",
     "tooltips": {
-        "+main": "The main content of the page"
+        "+main": "The main content of the page",
+        "+LeftBlock": "the content of the left side",
+        "+RightBlock": "the content of the right side",
+        "appleTouchIcon": "The file to be used as Apple touch icon",
+        "checkboxDarkTheme": "Enable dark theme",
+        "checkboxHideSearch": "Hide search field",
+        "checkboxShowInFooter": "Show a link to this page in the footer menu",
+        "checkboxShowInNavbar": "Show a link to this page in the navbar menu"
     }
 }

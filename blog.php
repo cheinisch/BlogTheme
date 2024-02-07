@@ -3,7 +3,7 @@ This template uses includes for elements that might be used also in other templa
 such as the header, navbar and footer markup. 
 #>
 <@ elements/header.php @>
-	<@ elements/navbar.php @>
+	
 	<section class="section">
 		<div class="container">
 			<div class="columns is-8 is-variable">
