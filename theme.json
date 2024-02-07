@@ -3,16 +3,16 @@
     "description": "A simple Bootstrap based Blog Theme",
     "author": "Heimfisch",
     "license": "MIT",
+    "version": "0.0.1",
     "tooltips": {
         "+main": "The main content of the page",
-        "+LeftBlock": "the content of the left side",
-        "+RightBlock": "the content of the right side",
         "appleTouchIcon": "The file to be used as Apple touch icon",
         "checkboxDarkTheme": "Enable dark theme",
         "checkboxSideTitleNavbar": "Enable Sidetitle at Top Navbar",
         "checkboxHideSearch": "Hide search field",
         "checkboxHideThumbnails": "Show Article Thumbnails",
         "checkboxShowInFooter": "Show a link to this page in the footer menu",
-        "checkboxShowInNavbar": "Show a link to this page in the navbar menu"
+        "checkboxShowInNavbar": "Show a link to this page in the navbar menu",
+        "textTrackingCode": "Add some Trackingcode to the Footer"
     }
 }
