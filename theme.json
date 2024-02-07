@@ -11,6 +11,7 @@
         "checkboxDarkTheme": "Enable dark theme",
         "checkboxSideTitleNavbar": "Enable Sidetitle at Top Navbar",
         "checkboxHideSearch": "Hide search field",
+        "checkboxHideThumbnails": "Show Article Thumbnails",
         "checkboxShowInFooter": "Show a link to this page in the footer menu",
         "checkboxShowInNavbar": "Show a link to this page in the navbar menu"
     }
