@@ -26,13 +26,13 @@
 		<@ navbar.php @>
 		</div>
             <div class="container py-5 headimg text-center">
-                <h1 class="display-4 font-weight-bold">@{ sitename } / @{ title }</h1>
-                <p class="font-italic mb-0">Ein wunderschöner Blog mit einer tollen Subline</p>
+                <h1 class="display-4 font-weight-bold"><@ if @{ checkboxSideTitleNavbar } @>@{ title }<@ else @> @{ sitename }<@ end @></h1>
+                <!--<p class="font-italic mb-0">Ein wunderschöner Blog mit einer tollen Subline</p>
                 <p class="font-italic">Snippe by
                     <a href="https://bootstrapious.com" class="text-white">
                         <u>Bootstrapious</u>
                     </a>
-                </p>
+                </p> -->
             </div>
         </div>
         <!-- Header ende -->
