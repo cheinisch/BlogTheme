@@ -12,7 +12,7 @@ This is a simple Bootstrap based theme with 3 layouts and an optional sidebar. T
     - [Post]()
     - [Blog]()
     - [Settings Navbar]()
-- [Light/Dark mode](#dark-light)
+- [Light/Dark mode](#dark-light-mode)
 - [Cheat Sheets](#cheat-sheets)
 
 ## Included Templates
@@ -27,7 +27,7 @@ Also included is a navbar with some options
 
 > ☝️ To see those templates in action while playing around just apply them to any page in your installation!
 
-## Dark Light
+## Dark Light Mode
 
 This template detecte the operation system prefert dark or light mode and use it.
 
