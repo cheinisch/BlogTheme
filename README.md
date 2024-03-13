@@ -12,7 +12,7 @@ This is a simple Bootstrap based theme with 3 layouts and an optional sidebar. T
     - [Post]()
     - [Blog]()
     - [Settings Navbar]()
-- [Light/Dark mode](#development-workflow)
+- [Light/Dark mode](#darklight)
 - [Cheat Sheets](#cheat-sheets)
 
 ## Included Templates
@@ -27,11 +27,25 @@ Also included is a navbar with some options
 
 > ☝️ To see those templates in action while playing around just apply them to any page in your installation!
 
-## Development Workflow
+## Dark Light
 
-This very detailed in-depth guide describes step by step the workflow of setting up and publish a new theme using [Composer](https://getcomposer.org). You can probaly skip some of the points in case you have been working already with Composer in the past.
+This template detecte the operation system prefert dark or light mode and use it.
 
-> ☝️ This guide assumes you're familiar with Visual Code Studio and working on a system with a Bash shell or similar &mdash; like macOS or Linux. However, it is of course possible to do the same on a Windows PC &mdash; just slightly different. 
+~~~
+<script>
+    (function () {
+        const htmlElement = document.querySelector("html")
+        if(htmlElement.getAttribute("data-bs-theme") === 'auto') {
+        function updateTheme() {
+            document.querySelector("html").setAttribute("data-bs-theme",
+            window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
+        }
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme)
+        updateTheme()
+        }
+    })();	
+</script>
+~~~
 
 ### The Local Package
 
