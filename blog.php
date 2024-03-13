@@ -34,6 +34,7 @@ such as the header, navbar and footer markup.
                 </div>
                 <div class="col-lg-10">
                 	<div class="row">
+						<@ if @{checkBoxShowSidebar} @>
 						<div class="col-lg-8">
 						<# Pagelist #>
 							<@ blocks/pagelist/cards_img.php @>
@@ -41,6 +42,12 @@ such as the header, navbar and footer markup.
 						<div class="col-lg-4">
 							<@ elements/sidebar.php @>
 						</div>
+						<@ else @>
+						<div class="col-lg-12">
+						<# Pagelist #>
+							<@ blocks/pagelist/cards_img.php @>
+						</div>
+						<@ end @>
 					</div>
                 </div>
                 <div class="pt-2">

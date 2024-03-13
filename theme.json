@@ -12,6 +12,7 @@
         "checkboxHideSearch": "Hide search field",
         "checkboxHideThumbnails": "Show Article Thumbnails",
         "checkboxShowInFooter": "Show a link to this page in the footer menu",
-        "checkboxBigTitle": "Shows the Site Title in the Headerimage"
+        "checkboxBigTitle": "Shows the Site Title in the Headerimage",
+        "checkboxShowSidebar":"Show's the Sidebar on the Page"
     }
 }
