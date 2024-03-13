@@ -3,7 +3,7 @@
     "description": "A simple Bootstrap based Blog Theme",
     "author": "Heimfisch",
     "license": "MIT",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "masks": {
         "page": [
             "formatDatePost",
