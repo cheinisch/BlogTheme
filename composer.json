@@ -1,6 +1,6 @@
 {
     "name": "heimfisch/blogtheme",
-    "description": "A simple Bootstrap based Blog Theme. Check out the demo page and all available templates https://dev.heinisch-design.de/demo/keepreading.",
+    "description": "A simple Bootstrap based Blog Theme. Check out the demo page and all available templates https://dev.heinisch-design.de/demo/blogtheme.",
     "type": "automad-package",
     "keywords": ["theme"],
     "license": "MIT",
