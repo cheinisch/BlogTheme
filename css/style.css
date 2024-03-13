@@ -23,6 +23,11 @@ body {
     min-height: 100vh;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media screen and (min-width: 1024px){
     .headimg{
         min-height: 300px;
