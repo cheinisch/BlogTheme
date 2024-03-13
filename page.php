@@ -7,7 +7,7 @@ such as the header, navbar and footer markup.
 <div class="container-md">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-					<@ if not @{ checkboxSideTitleNavbar } @><h2>@{ title }</h2><@ end @>
+					<@ if @{ checkboxBigTitle } @><h2>@{ title }</h2><@ end @>
                     @{ +main }
                 </div>
             </div>

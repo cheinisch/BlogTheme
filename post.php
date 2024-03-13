@@ -6,6 +6,7 @@ such as the header, navbar and footer markup.
 <div class="container-md">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
+                    <@ if @{ checkboxBigTitle } @><h2>@{ title }</h2><@ end @>
                     <div class="small text-muted pt-2 pb-1"><@ inc/date.php @></div>
 					@{ +main }
                     <@ if @{ tags } @>
