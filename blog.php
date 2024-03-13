@@ -33,11 +33,7 @@ such as the header, navbar and footer markup.
                 <div class="col-lg-10">
                 	<div class="row">
 					<# Pagelist #>
-						<@ if @{ checkboxHideThumbnails } @>
-							<@ blocks/pagelist/cards_text.php @>
-						<@ else @>
-							<@ blocks/pagelist/cards_img.php @>
-						<@ end @>
+						<@ blocks/pagelist/cards_img.php @>
                 	</div>
                 </div>
                 <div class="pt-2">
