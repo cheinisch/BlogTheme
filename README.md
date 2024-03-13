@@ -8,10 +8,10 @@ This is a simple Bootstrap based theme with 3 layouts and an optional sidebar. T
 ---
 
 - [Included Layouts](#included-templates)
-    - [Page]
-    - [Post]
-    - [Blog]
-    - [Settings Navbar]
+    - [Page]()
+    - [Post]()
+    - [Blog]()
+    - [Settings Navbar]()
 - [Light/Dark mode](#development-workflow)
 - [Cheat Sheets](#cheat-sheets)
 
