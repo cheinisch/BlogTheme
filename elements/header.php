@@ -20,8 +20,16 @@
 </head>
 <body>
 	<!-- Bootstrap Static Header -->
-	<div class="jumbotron bg-cover">
-    <!--<div style="background: url(https://bootstrapious.com/i/snippets/sn-static-header/background.jpg)" class="jumbotron bg-cover text-white">-->
+	
+	<@ ../inc/header-image.php @>
+		<@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
+			<@~ header-image.php @>
+			<@ if @{ :imageCard } ~@>
+				<div style="background: url(@{ :imageCard })" class="jumbotron bg-cover text-white">                       
+			<@~ else ~@>
+				<div class="jumbotron bg-cover">
+			<@~ end ~@>
+		<@ end @>     
 		<div class="container">
 		<@ navbar.php @>
 		</div>
