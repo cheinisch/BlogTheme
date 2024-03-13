@@ -6,7 +6,7 @@ such as the header, navbar and footer markup.
 <div class="container-md">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <div class="small text-muted pt-2 pb-1">January 1, 2023 // Author's Name</div>
+                    <div class="small text-muted pt-2 pb-1"><@ inc/date.php @></div>
 					@{ +main }
                     <div class="col-lg-12">Category: <a href="#">Test</a></div>
                     <div class="col-lg-12">Tag: <a href="#">#Test</a></div>
