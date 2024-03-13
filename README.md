@@ -3,18 +3,16 @@
 
 # BlogTheme for Automad
 
-You can use this package as a package skeleton for new [Automad](https://automad.org) themes.
-It includes all files to get you started with your own themes quickly. However there is only one single template 
-file with a simple tree menu. While its functionality is reduced to a minimum, it covers most aspects 
-of theme developing regarding the Automad [template language](https://automad.org/developer-guide/building-themes). The beautiful [Bulma](https://bulma.io) CSS framework is used to style the template and therefore this package doesn't include any CSS or JS files.
+This is a simple Bootstrap based theme with 3 layouts and an optional sidebar. This theme has a light and a dark mode. 
 
 ---
 
-- [Included Templates](#included-templates)
-- [Development Workflow](#development-workflow)
-	- [The Local Package](#the-local-package)
-	- [Create a Git Repository](#create-a-git-repository)
-	- [Register Your Package](#register-your-package)
+- [Included Layouts](#included-templates)
+    - [Page]
+    - [Post]
+    - [Blog]
+    - [Settings Navbar]
+- [Light/Dark mode](#development-workflow)
 - [Cheat Sheets](#cheat-sheets)
 
 ## Included Templates
