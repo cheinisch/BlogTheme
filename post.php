@@ -8,8 +8,11 @@ such as the header, navbar and footer markup.
                 <div class="col-lg-10">
                     <div class="small text-muted pt-2 pb-1"><@ inc/date.php @></div>
 					@{ +main }
-                    <div class="col-lg-12">Category: <a href="#">Test</a></div>
-                    <div class="col-lg-12">Tag: <a href="#">#Test</a></div>
+                    <@ if @{ tags } @>
+                    <div class="col-lg-12">
+                            Tag: <@ inc/tags.php @>
+                        </div>
+                    <@ end @>
                 </div>
             </div>
         </div>
