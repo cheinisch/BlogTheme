@@ -28,13 +28,20 @@ such as the header, navbar and footer markup.
 <div class="container-md">
             <div class="row justify-content-center">
                 <div class="col-lg-10 pt-2 pb-1">
-                    
+				<@ if @{ ?filter } @>
+					Filter: @{ ?filter } <a href="@{ url }"> Close</a>
+				<@ end @>	               
                 </div>
                 <div class="col-lg-10">
                 	<div class="row">
-					<# Pagelist #>
-						<@ blocks/pagelist/cards_img.php @>
-                	</div>
+						<div class="col-lg-8">
+						<# Pagelist #>
+							<@ blocks/pagelist/cards_img.php @>
+						</div>
+						<div class="col-lg-4">
+							<@ elements/sidebar.php @>
+						</div>
+					</div>
                 </div>
                 <div class="pt-2">
 					<# Pagination #>

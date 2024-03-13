@@ -1,4 +1,4 @@
-<div class="@{ :classContainer }">
+
 	<div class="row">
 		<@ set { :paddingTop: @{ cardImageRelativeHeight | def (75) } } @>
 		<@ foreach in pagelist @>
@@ -21,4 +21,3 @@
         </div>
         <@ end @>
 	</div>
-</div>
