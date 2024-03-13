@@ -20,9 +20,10 @@ This is a simple Bootstrap based theme with 3 layouts and an optional sidebar. T
 This package contains these simplified templates that only serve demonstrational purposes:
 
 1. The `page.php` template represents a basic page with a navbar, a content area and a sidebar with menu.
-2. The `pagelist.php` template contains a filterable and sortable pagelist that can be used as a skeleton for blogs or portfolios.
-3. The `session.php`template demonstrates the usage of session variables and the `set` function.
-4. The `images.php` template provides a minimal example of how to build a gallery template.
+2. The `post.php` template contains a filterable and sortable pagelist that can be used as a skeleton for blogs or portfolios.
+3. The `blog.php`template demonstrates the usage of session variables and the `set` function.
+
+Also included is a navbar with some options
 
 > ☝️ To see those templates in action while playing around just apply them to any page in your installation!
 
