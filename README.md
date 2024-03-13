@@ -47,7 +47,7 @@ This template detecte the operation system prefert dark or light mode and use it
 </script>
 ~~~
 
-You can disable the featore in the settings.
+You can disable the feature in the settings.
 
 ### The Local Package
 
