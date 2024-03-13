@@ -1,5 +1,14 @@
-				<nav class="navbar navbar-expand-md mb-4">
-                    <!--<nav class="navbar navbar-expand-md navbar-dark mb-4">-->
+            <@ ../inc/header-image.php @>
+                    <@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
+                        <@~ header-image.php @>
+                        <@ if @{ :imageCard } ~@>
+                        <nav class="navbar navbar-expand-md navbar-dark mb-4">
+                        <@~ else ~@>
+                        <nav class="navbar navbar-expand-md mb-4">
+                        <@~ end ~@>
+                    <@ end @>               
+                
+                    <!---->
                     <div class="container-md col-lg-10 nav-size">
                     <a class="navbar-brand" href="#"><@ if @{ checkboxSideTitleNavbar } @>@{ sitename }<@ end @></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
