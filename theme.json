@@ -4,8 +4,19 @@
     "author": "Heimfisch",
     "license": "MIT",
     "version": "0.0.5",
+    "masks": {
+        "page": [
+            "formatDatePost",
+            "formatDateProject",
+            "+sidebarText"
+        ],
+        "shared": [
+            "+sidebarText"
+        ]
+    },
     "tooltips": {
         "+main": "The main content of the page",
+        "+sidebarText": "Additional Content of the Sidebar",
         "appleTouchIcon": "The file to be used as Apple touch icon",
         "checkboxDarkTheme": "Enable dark theme",
         "checkboxSideTitleNavbar": "Enable Sidetitle at Top Navbar",

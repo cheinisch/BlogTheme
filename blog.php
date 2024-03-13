@@ -34,7 +34,7 @@ such as the header, navbar and footer markup.
                 </div>
                 <div class="col-lg-10">
                 	<div class="row">
-						<@ if @{checkBoxShowSidebar} @>
+						<@ if @{checkboxShowSidebar} @>
 						<div class="col-lg-8">
 						<# Pagelist #>
 							<@ blocks/pagelist/cards_img.php @>

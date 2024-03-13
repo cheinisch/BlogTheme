@@ -1,4 +1,6 @@
-Hier ist der Content der Sidebar
+<h3>About</h3>
+
+@{ +sidebarText }
 
 
 <h3>Tags</h3>
