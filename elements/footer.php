@@ -7,12 +7,8 @@
                 <p class="col-md-4 mb-0 text-body-secondary">&copy; <?php echo date("Y"); ?> @{ sitename }  <br />Made with <a href="https://automad.org">Automad</a> and <i class="bi-heart"></i></p>
             <@ end @>
             <ul class="nav col-md4 justify-content-center">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi-github"></i></a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi-instagram"></i></a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi-facebook"></i></a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi-youtube"></i></a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi-tiktok"></i></a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi-twitter"></i></a></li>
+                <@ if @{ itemsGithub } @><li class="nav-item"><a href="https://github.com/@{ itemsGithub }" class="nav-link px-2 text-body-secondary"><i class="bi-github"></i></a></li><@ end @>
+                <@ if @{ itemsInstagram } @><li class="nav-item"><a href="https://instagram.com/@{ itemsInstagram }" class="nav-link px-2 text-body-secondary"><i class="bi-instagram"></i></a></li><@ end @>
             </ul>
 
             <ul class="nav col-md-4 justify-content-end">

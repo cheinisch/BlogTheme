@@ -1,3 +1,4 @@
+<?php $type = "Blog" ?>
 <# 
 This template uses includes for elements that might be used also in other templates
 such as the header, navbar and footer markup. 
@@ -29,7 +30,7 @@ such as the header, navbar and footer markup.
             <div class="row justify-content-center">
                 <div class="col-lg-10 pt-2 pb-1">
 				<@ if @{ ?filter } @>
-					Filter: @{ ?filter } <a href="@{ url }"> Close</a>
+					<h3>Filter: @{ ?filter } <a href="@{ url }"> Close</a></h3>
 				<@ end @>	               
                 </div>
                 <div class="col-lg-10">

@@ -5,6 +5,6 @@
 
 <h3>Tags</h3>
 
-<@ foreach in tags 	@>
-	<@ if @{ :i } > 1 @>, <@ end @><a href="@{ urlTagLinkTarget | def (@{ :parent }) }?filter=@{ :tag }#filters" class="@{ :color | def ('has-text-dark') }" >@{ :tag }</a>
+<@ foreach in filters @>
+<a href="@{ itemsSidebarBlogList }?<@ queryStringMerge { filter: @{ :filter } } @>#filters">@{ :filter }</a>
 <@ end @>

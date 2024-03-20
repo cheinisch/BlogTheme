@@ -19,6 +19,7 @@
         "+main": "The main content of the page",
         "+sidebarText": "Additional Content of the Sidebar",
         "itemsSidebar":"Text for the Sidebar. You need HTML Markup",
+        "itemsSidebarBlogList":"URL /blog for the Taglist",
         "itemsFooter":"Text for the Footer. You need HTML Markup",
         "appleTouchIcon": "The file to be used as Apple touch icon",
         "checkboxDarkTheme": "Enable dark theme",
