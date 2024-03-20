@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="description" content="{ +main | findFirstParagraph | 150 }">
+	<meta name="description" content="@{ +main | findFirstParagraph | 150 }">
 	<@ if @{ tags } @>
         <meta name="keywords" content="<@ foreach in tags 	@><@ if @{ :i } > 1 @>, @{ :tag }<@ else @>@{ :tag }<@ end @><@ end @>">
     <@ end @>
