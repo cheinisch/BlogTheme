@@ -71,3 +71,7 @@ a.tags {
     text-decoration: inherit; /* no underline */
   }
 
+
+.navbar-dark-text{
+    color:black;
+}

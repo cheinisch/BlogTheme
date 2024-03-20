@@ -39,7 +39,7 @@
 		<@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
 			<@~ header-image.php @>
 			<@ if @{ :imageCard } ~@>
-				<div style="background: url(@{ :imageCard })" class="jumbotron bg-cover text-white">                       
+				<div style="background: url(@{ :imageCard })" class="jumbotron bg-cover <@ if not @{ checkboxDarkTitle } @>text-white<@ else @>text-black<@ end @>">                       
 			<@~ else ~@>
 				<div class="jumbotron bg-cover">
 			<@~ end ~@>

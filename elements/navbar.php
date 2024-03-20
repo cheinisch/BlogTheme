@@ -2,7 +2,7 @@
                     <@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
                         <@~ header-image.php @>
                         <@ if @{ :imageCard } ~@>
-                        <nav class="navbar navbar-expand-md navbar-dark mb-4">
+                        <nav class="navbar navbar-expand-md <@ if @{ checkboxDarkTitle } @>navbar-dark-text<@ end @> mb-4">
                         <@~ else ~@>
                         <nav class="navbar navbar-expand-md mb-4">
                         <@~ end ~@>
@@ -10,7 +10,7 @@
                 
                     <!---->
                     <div class="container-md col-lg-10 nav-size">
-                    <a class="navbar-brand" href="/"><@ if not @{ checkboxBigTitle } @>@{ sitename }<@ end @></a>
+                    <a class="navbar-brand <@ if @{ checkboxDarkTitle } @>navbar-dark-text<@ end @>" href="/"><@ if not @{ checkboxBigTitle } @>@{ sitename }<@ end @></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -20,9 +20,9 @@
 								<@ foreach in pagelist @>
 									<@ if @{ checkboxShowInNavbar } @>
 										<@ if @{ :current } @>
-											<li class="nav-item active" aria-current="page"><a class="nav-link active" aria-current="page" href="@{ url }">@{ title }</a></li>
+											<li class="nav-item  <@ if @{ checkboxDarkTitle } @>navbar-dark-text<@ end @> active" aria-current="page"><a class="nav-link <@ if @{ checkboxDarkTitle } @>navbar-dark-text<@ end @> active" aria-current="page" href="@{ url }">@{ title }</a></li>
 										<@ else @>
-											<li class="nav-item"><a class="nav-link" href="@{ url }">@{ title }</a></li>
+											<li class="nav-item <@ if @{ checkboxDarkTitle } @>navbar-dark-text<@ end @>"><a class="nav-link <@ if @{ checkboxDarkTitle } @>navbar-dark-text<@ end @>" href="@{ url }">@{ title }</a></li>
 										<@ end @>
 									<@ end @>
 								<@ end @>

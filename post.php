@@ -3,6 +3,7 @@ This template uses includes for elements that might be used also in other templa
 such as the header, navbar and footer markup. 
 #>
 <@ elements/header.php @>
+
 <div class="container-md">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
