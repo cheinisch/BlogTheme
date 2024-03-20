@@ -11,7 +11,7 @@ such as the header, navbar and footer markup.
 					filter: @{ ?filter },
 					match: '{"url": "#@{ filterPagelistByUrl }#"}',
 					sort: @{ ?sort | def (@{ sortPagelist }) | def('date desc') },
-					limit: @{ itemsPerPage | def(12) },
+					limit: @{ itemsPerPage | def(5) },
 					page: @{ ?page | def(1) }
 				} ~@>
 				<@ if @{ checkboxShowAllPagesInPagelist } @>
@@ -57,25 +57,22 @@ such as the header, navbar and footer markup.
 						<ul class="pagination justify-content-center">
 							<@ if @{ ?page } > 1 @>
 								<li class="page-item">
-									<a href="?<@ queryStringMerge { page: @{ ?page | -1 } } @>" class="page-link">
-										<@ Automad/Bootstrap/Icon { icon: 'chevron-left' } @>
+									<a class="page-link" href="?<@ queryStringMerge { page: @{ ?page | -1 } } @>" aria-label="Previous">
+										<span aria-hidden="true">&laquo;</span>
 									</a>
 								</li>
 							<@ end @>
 							<@ for @{ ?page | -4 } to @{ ?page | +4 } @>
 								<@ if @{ :i } > 0 and @{ :i } <= @{ :paginationCount } @>
 									<li class="page-item<@ if @{ ?page | def(1) } = @{ :i } @> active<@ end @>">
-										<a 
-										href="?<@ queryStringMerge { page: @{ :i } } @>" 
-										class="page-link"
-										>@{:i}</a>
+										<a href="?<@ queryStringMerge { page: @{ :i } } @>" class="page-link">@{:i}</a>
 									</li>
 								<@ end @>
 							<@ end @>
 							<@ if @{ ?page } < @{ :paginationCount } @>
 								<li class="page-item">
-									<a href="?<@ queryStringMerge { page: @{ ?page | +1 } } @>" class="page-link">
-										<@ Automad/Bootstrap/Icon { icon: 'chevron-right' } @>
+									<a class="page-link" href="?<@ queryStringMerge { page: @{ ?page | +1 } } @>" aria-label="Next">
+										<span aria-hidden="true">&raquo;</span>
 									</a>
 								</li>
 							<@ end @>
