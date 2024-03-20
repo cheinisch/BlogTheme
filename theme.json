@@ -8,15 +8,18 @@
         "page": [
             "formatDatePost",
             "formatDateProject",
-            "+sidebarText"
+            "appleTouchIcon"
         ],
         "shared": [
-            "+sidebarText"
+            "+sidebarText",
+            "textSidebar"
         ]
     },
     "tooltips": {
         "+main": "The main content of the page",
         "+sidebarText": "Additional Content of the Sidebar",
+        "itemsSidebar":"Text for the Sidebar. You need HTML Markup",
+        "itemsFooter":"Text for the Footer. You need HTML Markup",
         "appleTouchIcon": "The file to be used as Apple touch icon",
         "checkboxDarkTheme": "Enable dark theme",
         "checkboxSideTitleNavbar": "Enable Sidetitle at Top Navbar",
