@@ -4,12 +4,13 @@
 	<!-- Metainformationen -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="John Doe">
 
 	<meta name="description" content="Free Web tutorials">
-	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<@ if @{ tags } @>
+        <meta name="keywords" content="<@ foreach in tags 	@><@ if @{ :i } > 1 @>, @{ :tag }<@ else @>@{ :tag }<@ end @><@ end @>">
+    <@ end @>
 	<!-- Titel-->
-	<title>@{ sitename } // @{ title }</title>
+	<title>@{ sitename } - @{ title }</title>
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/packages/@{ theme }/css/bootstrap.min.css" rel="stylesheet" />
