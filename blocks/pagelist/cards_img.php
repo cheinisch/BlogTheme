@@ -7,9 +7,8 @@
                 <@ if not @{ :hideThumbnails } and not @{ iconPanel } @>
                     <@~ header-image.php @>
                     <@ if @{ :imageCard } ~@> 
-            <div class="card-img-top">
-            
-                        <img class="card-img-top" src="@{ :imageCard }" />    
+                        <div class="card-img-top">
+                            <img class="teaser-image" src="@{ :imageCard }" />    
                         </div>                 
                     <@~ end ~@>
                 <@ end @>   
