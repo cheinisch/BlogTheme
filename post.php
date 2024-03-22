@@ -29,7 +29,7 @@ such as the header, navbar and footer markup.
                             @{ +main }
                             <@ if @{ tags } @>
                                 <div class="col-lg-12 taglist">
-                                    Tag: <@ inc/tags.php @>
+                                    Posted in: <@ inc/tags.php @>
                                 </div>
                             <@ end @>
                         </div>
