@@ -75,3 +75,8 @@ a.tags {
 .navbar-dark-text{
     color:black;
 }
+
+
+.taglist{
+    padding-top:1rem;
+}

@@ -39,19 +39,8 @@ such as the header, navbar and footer markup.
 						<div class="col-lg-8">
 						<# Pagelist #>
 							<@ blocks/pagelist/cards_img.php @>
-						</div>
-						<div class="col-lg-4">
-							<@ elements/sidebar.php @>
-						</div>
-						<@ else @>
-						<div class="col-lg-12">
-						<# Pagelist #>
-							<@ blocks/pagelist/cards_img.php @>
-						</div>
-						<@ end @>
-					</div>
-                </div>
-                <div class="pt-2">
+
+							<div class="pt-2">
 					<# Pagination #>
 				<@ if @{ :paginationCount } > 1 @>
 					<nav aria-label="Page navigation">
@@ -80,6 +69,19 @@ such as the header, navbar and footer markup.
 						</ul>
 					</nav>
 				<@ end @>
+                </div>
+
+						</div>
+						<div class="col-lg-4">
+							<@ elements/sidebar.php @>
+						</div>
+						<@ else @>
+						<div class="col-lg-12">
+						<# Pagelist #>
+							<@ blocks/pagelist/cards_img.php @>
+						</div>
+						<@ end @>
+					</div>
                 </div>
             </div>
         </div>
