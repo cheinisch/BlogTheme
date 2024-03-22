@@ -1,0 +1,10 @@
+
+
+.navbar-expand-md .navbar-nav .nav-link
+{
+    color:dimgray;
+}
+
+.navbar-nav .nav-link.active{
+    color:black
+}

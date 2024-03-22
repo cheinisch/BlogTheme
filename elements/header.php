@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="/packages/@{ theme }/css/bootstrap.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="/packages/@{ theme }/css/bootstrap-icons.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="/packages/@{ theme }/css/style.css" rel="stylesheet" />
+	<@ if @{ checkboxDarkTitle } @>
+	<link rel="stylesheet" href="/packages/@{ theme }/css/dark-navbar.css" rel="stylesheet" />
+	<@ end @>
 
 	<!-- Javascripte -->
 	<script>
